@@ -3,3 +3,21 @@ root: ./
 structure:
   readme: README.md
   summary: SUMMARY.md
+
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: The Zero-Regression Blueprint
+  structure:
+    - type: section
+      key: section-zero-regression
+      title: The Zero-Regression Blueprint
+      path: zero-regression-blueprint
+      default: true
+      children:
+        - type: space
+          key: space-zero-regression
+          title: The Zero-Regression Blueprint
+          path: zero-regression-blueprint
+          default: true
+          content:
+            directory: ./
